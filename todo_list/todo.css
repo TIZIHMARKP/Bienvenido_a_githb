@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222;
+    flex-direction: column;
+}
+h1{
+    color: #999;
+    font-family: sans-serif;
+}
+.line{
+   width: 190px;
+    height: 4px;
+    background-color: whitesmoke;
+    margin-top: -1px;
+}
+.inner{
+    color: greenyellow;
+}
+.todo_app{
+    height: 350px;
+    width: 250px;
+    background-color: #777;
+    margin-top: 3rem;
+    box-shadow: 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ .user_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 12px;
+ }
+ 
+ .user_info img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+ }
+
+ /* .avatar{
+   width: 50px;
+   height: 15px;
+   border-radius: 50%;
+ } */
+ .name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+ }
+ h2{
+    color: white;
+ }
+ p{
+    color: white;
+    margin-top: 0.1rem;
+ }
+ .todos{
+    background-color: rgb(96, 96, 96);
+    width: 210px;
+    height: 270px;
+    margin: 0 auto;
+    overflow-y: scroll;
+ }
+
+ .item_box{
+    /* width: 200px; */
+    /* height: 330px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    margin: 12px;
+ }
+ .item{
+    color: wheat;
+    font-size: 17px;
+ }
+ .icons{
+    display: flex;
+    gap: 10px;  
+ }
+
+ .plus{
+    background-color: greenyellow;
+    color: wheat;
+    padding: 1px;
+    border-radius: 50%;
+ }
+ .star{
+    background-color: rgb(177, 184, 167);
+    color: wheat;
+    padding: 1px;
+    border-radius: 50%;
+ }
+
+ .input{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    /* width: 90%; */
+    margin: 12px;
+    padding: 10px;
+    gap: 10px;
+ }
+ input{
+    border: none;
+    outline: none;
+    background-color: #222;
+    color: wheat;
+    width: 100%;
+ }
